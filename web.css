@@ -1,0 +1,132 @@
+body {
+    background-image: url(www.jpg);
+    background-size:cover;
+    margin-top: 10px;
+    justify-content: center;}
+
+.everything {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;}
+
+.wholebody {display: flex;
+   justify-content:center;
+   column-gap: 20px;
+   margin-top: 5px;
+   margin-left: 20px;}
+
+
+.row {row-gap: 20px;
+display: flex;
+flex-direction: column;
+margin-left: 5px;
+margin-top: 0px;}
+
+.column {justify-content: center;
+    display: flex;
+     flex-direction: row;
+     margin-bottom: 10px;
+     column-gap: 10px;}
+
+.sub-row {display: flex;
+    justify-content: center;
+    margin-left: 0px;
+    flex-direction:column;
+    row-gap: 10px;}
+
+.a00 {border-radius: 10px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;}
+
+.logo { justify-content: center;
+width: 90px;
+height: 90px;
+object-fit:cover;
+border-radius: 45px;}
+
+.header {border-radius: 200px;
+    background-image: url(adv9.jpg);
+justify-content:center;
+display: flex;
+flex-direction: row;
+column-gap: 30px;
+top: 10px;
+}
+
+.side { 
+border-radius: 200px;
+display: flex;
+flex-direction:column;
+justify-content:flex-start;
+row-gap: 40px;}
+.side2 {
+        border-radius: 200px;
+        display: flex;
+        flex-direction:column;
+        justify-content:flex-start;
+        row-gap: 40px;}
+.icon { width: 40px;
+border-radius: 20px;}
+
+.icon:hover {width: 39px;
+    background-color: rgb(255, 40, 40);}
+    
+
+.name {font-weight: bolder;
+font-size: medium;
+font-size: 20px;
+color: black;
+line-height: 20px;}
+
+.slogan {color: crimson;
+       font-weight: bold;
+       font-style: italic;}
+
+.search { font-weight: bold;
+    margin-left: 250px;
+    display: flex;}
+
+.input:hover { background-color: aliceblue;}
+
+.input:active{ background-color: white;}
+
+.input { background-color: rgb(255, 213, 203);
+color: rgb(0, 0, 0);}
+
+.p { margin-top: 0px;}
+
+.company {
+ display: flex;
+ width: 250px;
+ border-radius: 100px;
+ margin-top: 5px;}
+
+button {
+        width: 120px;
+        background-color: rgb(2, 2, 51);
+        color: white;
+        margin-left: 300px;}
+
+button:hover {
+        width: 100px;
+        background-color: red;}
+
+video {
+   display: flex;
+   width:300px;
+}
+
+.topicons {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    border-radius: 50px;
+}
+
+
+
+.list:hover.sidelist {
+    display: block;
+    position: absolute;
+}
